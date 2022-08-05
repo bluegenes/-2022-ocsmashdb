@@ -1,0 +1,27 @@
+# location for all generated files
+basename: mmetsp
+fromfile_csv: mmetsp.fromfile.no-empty.csv
+
+output_dir: output.mmetsp-db
+
+taxonomy_csv: conf/mmetsp-taxonomy.csv
+
+run_alphabets:
+  - nucleotide
+  - protein
+  #- dayhoff
+
+
+alphabet_info:
+  nucleotide:
+    ksize: [21,31,51]
+    scaled: [1000,2000]
+  protein:
+    ksize: [7,8,9,10,11]
+    scaled: [100,200,500,1000]
+  #dayhoff:
+  #  ksize: [14,15,16,17,18,19]
+  #  scaled: [100,200]
+  #hp:
+  #  ksize: [32,35,42]
+  #  scaled: [100,200]

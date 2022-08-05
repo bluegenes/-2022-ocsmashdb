@@ -1,0 +1,11 @@
+name: 2022-ocsmash
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - snakemake>=7.9
+  - pandas=1.4.3
+  - seaborn=0.11.2
+  - sourmash=4.4.3

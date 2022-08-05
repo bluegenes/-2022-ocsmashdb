@@ -1,0 +1,11 @@
+name: sourmash-4.4
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.9
+  - rust
+  - pip
+  - pip:
+    - git+https://github.com/sourmash-bio/sourmash@latest
