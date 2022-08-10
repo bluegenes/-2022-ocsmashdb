@@ -1,3 +1,3 @@
 # 2022-ocsmashdb
 
-smash some ocean databases!
+smash some database that may be useful for marine samples
